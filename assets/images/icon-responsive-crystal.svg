@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="172px" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-responsive-crystal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-responsive-crystal">
+            <g>
+                <rect id="bounding-box" opacity="0.5" x="0" y="0" width="172" height="172"></rect>
+                <g id="Crystal" transform="translate(41.000000, 24.000000)">
+                    <g>
+                        <polygon id="Path-7" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0.15" fill="#00B0C1" points="48.1081081 0.603960396 27.6621622 16.3069307 0 74.2871287 27.6621622 118.376238 41.4932432 122 67.9527027 117.772277 86.5945946 105.089109 88.3986486 89.990099 84.1891892 54.960396"></polygon>
+                        <polygon id="Rectangle-33" fill="#FFFFFF" points="27.9067797 16.5679012 46.0084746 27.8641975 48.2711864 74.5555556 35.4491525 78.3209877 16.5932203 60.2469136"></polygon>
+                        <polygon id="Rectangle-33-Copy-2" fill="#FFFFFF" points="66.3117469 49.7037037 86.4367717 104.62937 68.574827 104.62937 48.2711864 74.0896569"></polygon>
+                        <polygon id="Rectangle-33-Copy-3" fill="#FFFFFF" points="34.9920202 107.21944 27.3169115 115.118487 7.52201023 83.4464902"></polygon>
+                        <polygon id="Rectangle-33-Copy" fill="#FFFFFF" points="48.2711864 2.25925926 80.8275002 52.553518 65.9957627 48.9506173"></polygon>
+                        <polyline id="Path-8" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="27.6621622 116.564356 35.4797297 107.50495 0 74.2871287"></polyline>
+                        <polyline id="Path-9" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="35.4797297 107.50495 68.5540541 105.089109 86.5945946 105.089109"></polyline>
+                        <polyline id="Path-10" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="68.5540541 104.485149 47.5067568 74.2871287 45.1013514 29.5940594 47.5067568 1.81188119"></polyline>
+                        <polyline id="Path-11" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="36.0810811 106.90099 34.8783784 77.9108911 47.5067568 74.2871287"></polyline>
+                        <polyline id="Path-12" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="34.8783784 77.3069307 15.6351351 59.7920792 0.601351351 73.6831683"></polyline>
+                        <polyline id="Path-13" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="16.2364865 59.7920792 27.6621622 16.9108911 45.1013514 28.3861386"></polyline>
+                        <polyline id="Path-26" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="48.1081081 74.2871287 65.847973 48.9207921 83.5878378 54.960396"></polyline>
+                        <path d="M48.1081081,1.81188119 L85.9932432,103.881188" id="Path-27" stroke="#00B0C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
