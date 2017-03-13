@@ -19,14 +19,54 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>Hello World</h1>
+        <h1 class="rainbow">Crystal Collector!</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-2 col-lg-offset-3">
-        <img src="assets/images/red-crystal.svg" class="img-fluid red" alt="red">
+      <div class="col-lg-12">
+        <div class="col-md-offset-1 col-md-4 target">
+          <h2>TARGET</h2>
+          <div id="targetNumber">0</div>
+        </div>
+        <div class="col-md-offset-2 col-md-4 aim">
+          <h2>AIM</h2>
+          <div class="rainbow" id="aimNumber">0</div>
+        </div>
       </div>
     </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-md-offset-1 col-md-10 crystals">
+          <img src="assets/images/red-crystal.svg" class="img-fluid red" alt="red">
+          <img src="assets/images/orange-crystal.svg" class="img-fluid orange" alt="orange">
+          <img src="assets/images/blue-crystal.svg" class="img-fluid blue" alt="blue">
+          <img src="assets/images/green-crystal.svg" class="img-fluid green" alt="green">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-md-offset-1 col-md-4 score">
+          <br> Score
+          <br>
+          <br> Wins:
+          <div id="wins"></div>
+          <br> Losses:
+          <div id="losses"></div>
+          <br>
+        </div>
+        <div class="col-md-offset-1 col-md-5 instructions">
+          <br> Instructions:
+          <br>
+          <br> You are given a target number at the start of the game. The four crystals have different random values. Click them to respectively to add to your aimed number. When the aim equals the target, you win! Go over, you lose!
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 </body>
 <footer class="navbar-fixed-bottom">©Copyright2017 Nate Pond</footer>

@@ -8,27 +8,123 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+font-family: 'CrystallineNegative';
+src: url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.eot');
+src: url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.eot?#iefix') format('embedded-opentype'),
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.woff') format('woff'),
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.ttf') format('truetype');
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'CrystallineOutline';
+src: url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineOutline/CrystallineOutline.eot');
+src: url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineOutline/CrystallineOutline.eot?#iefix') format('embedded-opentype'),
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineOutline/CrystallineOutline.woff') format('woff'),
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineOutline/CrystallineOutline.ttf') format('truetype');
+  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineOutline/CrystallineOutline.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "yataghanregular";
   background: "images/background.png";
   background-color: transparent;
 }
-h1 {
-font-family: 'CrystallineNegative';
-src: url('https://natepond.github.io/bootstrap/fonts/CrystallineNegative/CrystallineNegative.eot');
-src: url('https://natepond.github.io/bootstrap/fonts/CrystallineNegative/CrystallineNegative.eot?#iefix') format('embedded-opentype'),
-  url('https://natepond.github.io/bootstrap/fonts/CrystallineNegative/CrystallineNegative.woff') format('woff'),
-  url('https://natepond.github.io/week-4-game/assets/fonts/CrystallineNegative/CrystallineNegative.ttf') format('truetype');
-  url('https://natepond.github.io/bootstrap/fonts/CrystallineNegative/CrystallineNegative.svg#yataghanregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
 
-// }
+h1 {
+  font-family: "CrystallineOutline";
+  font-size: 75px;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+h2 {
+  font-family: "yataghanregular";
+  color: #ecf0f1;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 1.5;
+}
 
 .row{
   background-color: transparent;
 }
 
+.target{
+  color: #ecf0f1;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 5px 40px 5px;
+  border: solid 2px #c71f1f;
+  line-height: 1.5;
+}
+
+#targetNumber{
+  font-family: "CrystallineNegative";
+  font-size: 75px;
+  font-weight: 100;
+  text-transform: uppercase;
+
+background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f00),  color-stop(0.4, #f22), color-stop(0.8, #ffa500), color-stop(1, #f22));
+  background-image: gradient( linear, left top, right top, color-stop(0, #f00),  color-stop(0.4, #f22), color-stop(0.8, #ffa500), color-stop(1, #f22));
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#aimNumber{
+  font-family: "CrystallineNegative";
+  font-size: 75px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.aim{
+  color: #ecf0f1;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 5px 40px 5px;
+  border: solid 2px #c71f1f
+}
+
+.crystals {
+  color: #ecf0f1;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 5px 40px 5px;
+  border: solid 2px #c71f1f; 
+}
+
+.score {
+  color: #ecf0f1;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 5px 40px 5px;
+  border: solid 2px #c71f1f; 
+  text-align: left;
+  font-size: 18px;
+}
+
+.instructions {
+  color: #ecf0f1;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 5px 40px 5px;
+  border: solid 2px #c71f1f; 
+  text-align: left;
+  font-size: 18px;
+}
 
 
 
