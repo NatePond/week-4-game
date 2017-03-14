@@ -1,3 +1,10 @@
+window.onload = function(){
+var audio = new Audio("assets/DanDeaconLearningToRelax.mp3");
+audio.play();
+audio.loop = true;
+}
+
+
 var targetNumber = Math.floor(Math.random() * 101) + 19;
 var aimNumber = 0;
 var red;
