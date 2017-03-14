@@ -23,26 +23,27 @@ var d;
 
 
 function gem() {
-  return a = Math.floor(Math.random() * 11) + 1;
-  return b = Math.floor(Math.random() * 11) + 1;
-  return c = Math.floor(Math.random() * 11) + 1;
-  return d = Math.floor(Math.random() * 11) + 1;
-  if ( gem(a) === gem(b) || gem(a) === gem(c) || gem(a) === gem(d) || gem(b) === gem(c) || gem(b) === gem(d) || gem(c) === gem(d)) {
-    gem(); 
-  }
+  return Math.floor(Math.random() * 11) + 1;
+  // return a = Math.floor(Math.random() * 11) + 1;
+  // return b = Math.floor(Math.random() * 11) + 1;
+  // return c = Math.floor(Math.random() * 11) + 1;
+  // return d = Math.floor(Math.random() * 11) + 1;
+  // if ( gem(a) === gem(b) || gem(a) === gem(c) || gem(a) === gem(d) || gem(b) === gem(c) || gem(b) === gem(d) || gem(c) === gem(d)) {
+  //   gem(); 
+  // }
 }
 
-var isFixedValue = false;
+// var isFixedValue = false;
 
 
 
 function setAllValues() {
-  if (isFixedValue === false) {
-    red = gem(a);
-    orange = gem(b);
-    blue = gem(c);
-    green = gem(d);
-  }
+  // if (isFixedValue === false) {
+    red = gem();
+    orange = gem();
+    blue = gem();
+    green = gem();
+  // }
   isFixedValue = true;
   console.log(red);
   console.log(orange);
@@ -52,47 +53,106 @@ function setAllValues() {
 
 setAllValues();
 
-function controls(){
-$("#targetNumber").html(targetNumber)
-$(".red").on("click", function() {
-  aimNumber = aimNumber + red;
-  $("#aimNumber").html(aimNumber)
-});
+// $("#targetNumber").html(targetNumber)
+// $(".red").on("click", function() {
+//   aimNumber = aimNumber + red;
+//   $("#aimNumber").html(aimNumber)
+// });
 
-$(".orange").on("click", function() {
-  aimNumber = aimNumber + orange;
-  $("#aimNumber").html(aimNumber)
-});
+// $(".orange").on("click", function() {
+//   aimNumber = aimNumber + orange;
+//   $("#aimNumber").html(aimNumber)
+// });
 
-$(".blue").on("click", function() {
-  aimNumber = aimNumber + blue;
-  $("#aimNumber").html(aimNumber)
-});
+// $(".blue").on("click", function() {
+//   aimNumber = aimNumber + blue;
+//   $("#aimNumber").html(aimNumber)
+// });
 
-$(".green").on("click", function() {
-  aimNumber = aimNumber + green;
-  $("#aimNumber").html(aimNumber)
-})
-}
+// $(".green").on("click", function() {
+//   aimNumber = aimNumber + green;
+//   $("#aimNumber").html(aimNumber)
+// })
 
 
-
-
+// $("#targetNumber").html(10)
 function game() {
-  if (aimNumber === targetNumber) {
-    wins++;
-    targetNumber = Math.floor(Math.random() * 101) + 19;
-    $("#targetNumber").html(targetNumber)
-  }
-  else if (aimNumber > targetNumber) {
-    losses++;
-    targetNumber = Math.floor(Math.random() * 101) + 19;
-    $("#targetNumber").html(targetNumber)
-    return
-  }
-  controls();
-  $("#wins").html(wins)
-  $("#losses").html(losses)
+
+  $("#targetNumber").html(targetNumber)
+  $(".red").on("click", function() {
+    aimNumber += red;
+    $("#aimNumber").html(aimNumber)
+    if (aimNumber === targetNumber) {
+      wins++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber);
+      $("#aimNumber").html(aimNumber);
+    } else if (aimNumber > targetNumber) {
+      losses++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber)
+      $("#aimNumber").html(aimNumber);
+    }
+    $("#wins").html(wins);
+    $("#losses").html(losses);
+  });
+
+  $(".orange").on("click", function() {
+    aimNumber += orange;
+    $("#aimNumber").html(aimNumber)
+    if (aimNumber === targetNumber) {
+      wins++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      $("#targetNumber").html(targetNumber);
+      $("#aimNumber").html(0);
+    } else if (aimNumber > targetNumber) {
+      losses++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber)
+      $("#aimNumber").html(aimNumber);
+    }
+  });
+
+  $(".blue").on("click", function() {
+    aimNumber += blue;
+    $("#aimNumber").html(aimNumber)
+    if (aimNumber === targetNumber) {
+      wins++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber);
+      $("#aimNumber").html(aimNumber);
+    } else if (aimNumber > targetNumber) {
+      losses++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber)
+      $("#aimNumber").html(aimNumber);
+    }
+  });
+
+  $(".green").on("click", function() {
+    aimNumber += green;
+    $("#aimNumber").html(aimNumber)
+    if (aimNumber === targetNumber) {
+      wins++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber);
+      aimNumber = 0;
+      $("#aimNumber").html(aimNumber);
+    } else if (aimNumber > targetNumber) {
+      losses++;
+      targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
+      $("#targetNumber").html(targetNumber)
+      $("#aimNumber").html(aimNumber);
+    }
+  })
+  
 }
 
 game();
