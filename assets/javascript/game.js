@@ -36,6 +36,8 @@ function game() {
     $("#aimNumber").html(aimNumber)
     if (aimNumber === targetNumber) {
       wins++;
+      var audio = new Audio('assets/yay.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -46,6 +48,8 @@ function game() {
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
+      var audio = new Audio('assets/Disappointed.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -62,6 +66,8 @@ function game() {
     $("#aimNumber").html(aimNumber)
     if (aimNumber === targetNumber) {
       wins++;
+      var audio = new Audio('assets/yay.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -72,6 +78,8 @@ function game() {
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
+      var audio = new Audio('assets/Disappointed.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -88,6 +96,8 @@ function game() {
     $("#aimNumber").html(aimNumber)
     if (aimNumber === targetNumber) {
       wins++;
+      var audio = new Audio('assets/yay.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -98,6 +108,8 @@ function game() {
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
+      var audio = new Audio('assets/Disappointed.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -114,6 +126,8 @@ function game() {
     $("#aimNumber").html(aimNumber)
     if (aimNumber === targetNumber) {
       wins++;
+      var audio = new Audio('assets/yay.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
@@ -124,6 +138,8 @@ function game() {
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
+      var audio = new Audio('assets/Disappointed.mp3');
+      audio.play();
       addativeValue = [];
       gem();
       setAllValues();
