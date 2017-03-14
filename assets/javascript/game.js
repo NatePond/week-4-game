@@ -66,8 +66,9 @@ function game() {
       gem();
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
+      aimNumber = 0;
       $("#targetNumber").html(targetNumber);
-      $("#aimNumber").html(0);
+      $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
       addativeValue = [];
@@ -115,7 +116,6 @@ function game() {
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
       $("#targetNumber").html(targetNumber);
-      aimNumber = 0;
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
       losses++;
