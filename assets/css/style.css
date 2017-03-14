@@ -59,7 +59,7 @@ h2 {
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .row{
@@ -71,7 +71,7 @@ h2 {
   background-color: rgba(245, 245, 245, 0.3);
   border-radius: 5px 40px 5px;
   border: solid 2px #c71f1f;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 #targetNumber{
