@@ -41,6 +41,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#wins").html(wins)
       $("#targetNumber").html(targetNumber);
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
@@ -50,11 +51,10 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#losses").html(losses);
       $("#targetNumber").html(targetNumber)
       $("#aimNumber").html(aimNumber);
     }
-    $("#wins").html(wins);
-    $("#losses").html(losses);
   });
 
   $(".orange").on("click", function() {
@@ -67,6 +67,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#wins").html(wins)
       $("#targetNumber").html(targetNumber);
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
@@ -76,6 +77,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#losses").html(losses);
       $("#targetNumber").html(targetNumber)
       $("#aimNumber").html(aimNumber);
     }
@@ -91,6 +93,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#wins").html(wins)
       $("#targetNumber").html(targetNumber);
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
@@ -100,6 +103,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#losses").html(losses);
       $("#targetNumber").html(targetNumber)
       $("#aimNumber").html(aimNumber);
     }
@@ -115,6 +119,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#wins").html(wins)
       $("#targetNumber").html(targetNumber);
       $("#aimNumber").html(aimNumber);
     } else if (aimNumber > targetNumber) {
@@ -124,6 +129,7 @@ function game() {
       setAllValues();
       targetNumber = Math.floor(Math.random() * 101) + 19;
       aimNumber = 0;
+      $("#losses").html(losses);
       $("#targetNumber").html(targetNumber)
       $("#aimNumber").html(aimNumber);
     }
